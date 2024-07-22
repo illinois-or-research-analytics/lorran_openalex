@@ -6,10 +6,10 @@ import re
 import os
 
 # Directory containing the part files
-directory_path = 'openalex-snapshot/data/works/'
+directory_path = '../openalex-snapshot/data/works/'
 
 # Output directory for Parquet files
-output_directory = 'output/'
+output_directory = '../output2/'
 os.makedirs(output_directory, exist_ok=True)
 
 # Log file path
@@ -25,6 +25,9 @@ def extract_info(json_line):
     doi = data.get('doi', None)
     if doi is None or not doi_pattern.match(doi):
         doi = 'DOI not available'
+    else:
+        # Remove the "https://doi.org/" prefix
+        doi = doi.replace('https://doi.org/', '')
 
     publication_year = data.get('publication_year', 'Year not available')
     references = [ref.replace('https://openalex.org/', '') for ref in data.get('referenced_works', [])]
@@ -147,4 +150,10 @@ with open(log_file_path, 'w') as log_file:
         for error in errors:
             log_file.write(f"{error}\n")
     else:
-        log_file.write("All files processed successfully without errors.")
+        log_file.write("All files processed successfully without errors.\n")
+
+    # Log the overall statistics
+    log_file.write(f"Total number of lines without a valid DOI: {total_no_doi_count}\n")
+    log_file.write(f"Total percentage of lines without a valid DOI: {percent_no_doi_total:.2f}%\n")
+    log_file.write(f"Total number of works processed: {total_lines_processed}\n")
+    log_file.write(f"Total time taken to process the data: {processing_time:.2f} seconds\n")
