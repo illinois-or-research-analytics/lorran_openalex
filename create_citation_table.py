@@ -10,7 +10,7 @@ citation_directory = '../final_files/'
 id_info_file = '../final_files_/openalexID_newID_hasDOI.parquet'
 
 # Output directory for the citation table Parquet file
-output_directory = '../final_files5/'
+output_directory = '../final_files6/' #fixing tipe of data to INT
 os.makedirs(output_directory, exist_ok=True)
 citation_output_file = os.path.join(output_directory, 'citation_table_chunks.parquet')
 
@@ -56,14 +56,15 @@ for i in tqdm(range(21), desc="Processing citation files"):
         citation_df = citation_df.rename(columns={'new_id': 'cited_new_id', 'hasDOI': 'cited_hasDOI'})
         print(f"Finished merging cited IDs for file: {file_path}")
 
-        # Select relevant columns
-        citation_df = citation_df[['citing_new_id', 'citing_hasDOI', 'cited_new_id', 'cited_hasDOI']]
+        # Select relevant columns and drop NaN
+        citation_df = citation_df[['citing_new_id', 'citing_hasDOI', 'cited_new_id', 'cited_hasDOI']].dropna()
 
         # Append to citation_data
         citation_data.extend(citation_df.values.tolist())
 
         if len(citation_data) >= chunk_size:
             citation_chunk_df = pd.DataFrame(citation_data, columns=['citing', 'citing_hasDOI', 'cited', 'cited_hasDOI'])
+            citation_chunk_df = citation_chunk_df.astype({'citing': 'int', 'citing_hasDOI': 'int', 'cited': 'int', 'cited_hasDOI': 'int'})
             chunk_output_file = os.path.join(output_directory, f'citation_table_chunk_{chunk_counter}.parquet')
             citation_chunk_df.to_parquet(chunk_output_file, index=False, engine='pyarrow')
             print(f"Saved chunk {chunk_counter} with {len(citation_chunk_df)} rows to {chunk_output_file}")
@@ -80,6 +81,7 @@ for i in tqdm(range(21), desc="Processing citation files"):
 # Save any remaining data
 if citation_data:
     citation_chunk_df = pd.DataFrame(citation_data, columns=['citing', 'citing_hasDOI', 'cited', 'cited_hasDOI'])
+    citation_chunk_df = citation_chunk_df.astype({'citing': 'int', 'citing_hasDOI': 'int', 'cited': 'int', 'cited_hasDOI': 'int'})
     chunk_output_file = os.path.join(output_directory, f'citation_table_chunk_{chunk_counter}.parquet')
     citation_chunk_df.to_parquet(chunk_output_file, index=False, engine='pyarrow')
     print(f"Saved final chunk {chunk_counter} with {len(citation_chunk_df)} rows to {chunk_output_file}")
