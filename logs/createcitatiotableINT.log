@@ -1,0 +1,156 @@
+nohup: ignoring input
+Reading ID and hasDOI information...
+Finished reading ID and hasDOI information.
+Processing citation files...
+Processing citation files:   0%|          | 0/21 [00:00<?, ?it/s]Processing citation files:   5%|▍         | 1/21 [18:06<6:02:10, 1086.51s/it]Processing citation files:  10%|▉         | 2/21 [36:17<5:44:58, 1089.41s/it]Processing citation files:  14%|█▍        | 3/21 [54:22<5:26:11, 1087.29s/it]Processing citation files:  19%|█▉        | 4/21 [1:12:06<5:05:26, 1078.00s/it]Processing citation files:  24%|██▍       | 5/21 [1:30:14<4:48:26, 1081.68s/it]Processing citation files:  29%|██▊       | 6/21 [1:47:59<4:29:01, 1076.09s/it]Processing citation files:  33%|███▎      | 7/21 [2:05:36<4:09:36, 1069.77s/it]Processing citation files:  38%|███▊      | 8/21 [2:23:16<3:51:05, 1066.54s/it]Processing citation files:  43%|████▎     | 9/21 [2:40:44<3:32:08, 1060.70s/it]Processing citation files:  48%|████▊     | 10/21 [2:58:14<3:13:52, 1057.49s/it]Processing citation files:  52%|█████▏    | 11/21 [3:16:02<2:56:46, 1060.63s/it]Processing citation files:  57%|█████▋    | 12/21 [3:33:27<2:38:23, 1056.00s/it]Processing citation files:  62%|██████▏   | 13/21 [3:51:05<2:20:51, 1056.50s/it]Processing citation files:  67%|██████▋   | 14/21 [4:07:46<2:01:17, 1039.66s/it]Processing citation files:  71%|███████▏  | 15/21 [4:27:03<1:47:30, 1075.08s/it]Processing citation files:  76%|███████▌  | 16/21 [4:44:44<1:29:14, 1070.80s/it]Processing citation files:  81%|████████  | 17/21 [5:02:31<1:11:19, 1069.88s/it]Processing citation files:  86%|████████▌ | 18/21 [5:20:38<53:45, 1075.07s/it]  Processing citation files:  90%|█████████ | 19/21 [5:38:21<35:42, 1071.25s/it]Processing citation files:  95%|█████████▌| 20/21 [5:56:07<17:49, 1069.70s/it]Processing citation files: 100%|██████████| 21/21 [6:11:55<00:00, 1033.21s/it]Processing citation files: 100%|██████████| 21/21 [6:11:55<00:00, 1062.64s/it]
+Processing file: ../final_files/citation_network_edge_list_chunk_0.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_0.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_0.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_0.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_0.parquet
+Saved chunk 0 with 100238578 rows to ../final_files6/citation_table_chunk_0.parquet
+Processed 100238578 records from ../final_files/citation_network_edge_list_chunk_0.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_1.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_1.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_1.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_1.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_1.parquet
+Saved chunk 1 with 106470274 rows to ../final_files6/citation_table_chunk_1.parquet
+Processed 106470274 records from ../final_files/citation_network_edge_list_chunk_1.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_2.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_2.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_2.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_2.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_2.parquet
+Saved chunk 2 with 106448723 rows to ../final_files6/citation_table_chunk_2.parquet
+Processed 106448723 records from ../final_files/citation_network_edge_list_chunk_2.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_3.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_3.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_3.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_3.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_3.parquet
+Saved chunk 3 with 102598988 rows to ../final_files6/citation_table_chunk_3.parquet
+Processed 102598988 records from ../final_files/citation_network_edge_list_chunk_3.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_4.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_4.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_4.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_4.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_4.parquet
+Saved chunk 4 with 104871137 rows to ../final_files6/citation_table_chunk_4.parquet
+Processed 104871137 records from ../final_files/citation_network_edge_list_chunk_4.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_5.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_5.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_5.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_5.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_5.parquet
+Saved chunk 5 with 104427324 rows to ../final_files6/citation_table_chunk_5.parquet
+Processed 104427324 records from ../final_files/citation_network_edge_list_chunk_5.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_6.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_6.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_6.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_6.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_6.parquet
+Saved chunk 6 with 101503362 rows to ../final_files6/citation_table_chunk_6.parquet
+Processed 101503362 records from ../final_files/citation_network_edge_list_chunk_6.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_7.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_7.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_7.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_7.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_7.parquet
+Saved chunk 7 with 106259958 rows to ../final_files6/citation_table_chunk_7.parquet
+Processed 106259958 records from ../final_files/citation_network_edge_list_chunk_7.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_8.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_8.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_8.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_8.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_8.parquet
+Saved chunk 8 with 100317397 rows to ../final_files6/citation_table_chunk_8.parquet
+Processed 100317397 records from ../final_files/citation_network_edge_list_chunk_8.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_9.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_9.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_9.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_9.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_9.parquet
+Saved chunk 9 with 101287348 rows to ../final_files6/citation_table_chunk_9.parquet
+Processed 101287348 records from ../final_files/citation_network_edge_list_chunk_9.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_10.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_10.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_10.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_10.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_10.parquet
+Saved chunk 10 with 103257171 rows to ../final_files6/citation_table_chunk_10.parquet
+Processed 103257171 records from ../final_files/citation_network_edge_list_chunk_10.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_11.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_11.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_11.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_11.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_11.parquet
+Saved chunk 11 with 100468206 rows to ../final_files6/citation_table_chunk_11.parquet
+Processed 100468206 records from ../final_files/citation_network_edge_list_chunk_11.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_12.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_12.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_12.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_12.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_12.parquet
+Saved chunk 12 with 102011281 rows to ../final_files6/citation_table_chunk_12.parquet
+Processed 102011281 records from ../final_files/citation_network_edge_list_chunk_12.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_13.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_13.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_13.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_13.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_13.parquet
+Processed 99932582 records from ../final_files/citation_network_edge_list_chunk_13.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_14.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_14.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_14.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_14.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_14.parquet
+Saved chunk 13 with 205006020 rows to ../final_files6/citation_table_chunk_13.parquet
+Processed 105073438 records from ../final_files/citation_network_edge_list_chunk_14.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_15.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_15.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_15.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_15.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_15.parquet
+Saved chunk 14 with 105160196 rows to ../final_files6/citation_table_chunk_14.parquet
+Processed 105160196 records from ../final_files/citation_network_edge_list_chunk_15.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_16.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_16.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_16.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_16.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_16.parquet
+Saved chunk 15 with 103112375 rows to ../final_files6/citation_table_chunk_15.parquet
+Processed 103112375 records from ../final_files/citation_network_edge_list_chunk_16.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_17.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_17.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_17.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_17.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_17.parquet
+Saved chunk 16 with 103021070 rows to ../final_files6/citation_table_chunk_16.parquet
+Processed 103021070 records from ../final_files/citation_network_edge_list_chunk_17.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_18.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_18.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_18.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_18.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_18.parquet
+Saved chunk 17 with 103867777 rows to ../final_files6/citation_table_chunk_17.parquet
+Processed 103867777 records from ../final_files/citation_network_edge_list_chunk_18.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_19.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_19.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_19.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_19.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_19.parquet
+Saved chunk 18 with 103071446 rows to ../final_files6/citation_table_chunk_18.parquet
+Processed 103071446 records from ../final_files/citation_network_edge_list_chunk_19.parquet
+Processing file: ../final_files/citation_network_edge_list_chunk_20.parquet
+Merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_20.parquet
+Finished merging citing IDs for file: ../final_files/citation_network_edge_list_chunk_20.parquet
+Merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_20.parquet
+Finished merging cited IDs for file: ../final_files/citation_network_edge_list_chunk_20.parquet
+Processed 85389517 records from ../final_files/citation_network_edge_list_chunk_20.parquet
+Saved final chunk 19 with 85389517 rows to ../final_files6/citation_table_chunk_19.parquet
+Processing completed.
+Total time taken to process the data: 22511.06 seconds
+Total number of chunks created: 20
+Saved final Parquet file chunks to ../final_files6/
+Log saved to ../final_files6/citation_processing_log_chunks.txt
