@@ -6,10 +6,10 @@ import time
 from tqdm import tqdm
 
 # Directory containing the output Parquet files
-output_directory = '../output2/'
+output_directory = '../output/'
 
 # Directory to store the final Parquet files
-final_files_directory = '../final_files_/'
+final_files_directory = '../final_files/'
 os.makedirs(final_files_directory, exist_ok=True)
 
 # Path to the log file
