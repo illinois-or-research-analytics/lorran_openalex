@@ -4,13 +4,13 @@ import time
 from tqdm import tqdm
 
 # Directory containing the citation Parquet files
-citation_directory = '../final_files/'
+citation_directory = '../preprocessed_files/'
 
 # File containing the ID and has_DOI information
-id_info_file = '../final_files_/openalexID_newID_hasDOI.parquet'
+id_info_file = '../final_files/openalexID_newID_hasDOI.parquet'
 
 # Output directory for the citation table Parquet file
-output_directory = '../final_files6/' #fixing tipe of data to INT
+output_directory = '../citations/' 
 os.makedirs(output_directory, exist_ok=True)
 citation_output_file = os.path.join(output_directory, 'citation_table_chunks.parquet')
 
