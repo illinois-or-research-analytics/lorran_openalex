@@ -1,0 +1,6 @@
+Log file for processing errors and time measurements
+
+Read the output Parquet file in 191.26 seconds.
+Created 'hasDOI' column in 88.19 seconds.
+Selected required columns in 15.05 seconds.
+Saved the new DataFrame to ../final_files_/openalexID_newID_hasDOI.parquet in 31.33 seconds.

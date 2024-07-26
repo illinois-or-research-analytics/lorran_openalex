@@ -1,0 +1,6 @@
+Total time taken to combine the data: 301.53 seconds
+Total number of records in combined citation table: 2148788148
+Saved combined Parquet file to ../final_files6/combined_citation_table.parquet
+Total time taken to combine the data: 273.78 seconds
+Total number of records in combined citation table: 2148788148
+Saved combined Parquet file to ../final_files6/combined_citation_table.parquet
