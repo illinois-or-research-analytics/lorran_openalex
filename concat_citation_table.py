@@ -4,7 +4,7 @@ import time
 from tqdm import tqdm
 
 # Directory containing the citation chunk Parquet files
-chunk_directory = '../final_files6/'
+chunk_directory = '../citations/'
 
 # Output file for the combined citation table Parquet file
 combined_output_file = os.path.join(chunk_directory, 'combined_citation_table.parquet')
