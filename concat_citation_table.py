@@ -7,7 +7,7 @@ from tqdm import tqdm
 chunk_directory = '../citations/'
 
 # Output file for the combined citation table Parquet file
-combined_output_file = os.path.join(chunk_directory, 'combined_citation_table.parquet')
+combined_output_file = os.path.join(chunk_directory, 'citation_table.parquet')
 
 # Log file path
 log_file_path = os.path.join(chunk_directory, 'combine_chunks_log.txt')
