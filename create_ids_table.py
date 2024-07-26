@@ -4,13 +4,13 @@ import time
 import os
 
 # Path to the final Parquet file created in the previous code
-final_file_path = '../final_files_/works.parquet'
+final_file_path = '../final_files/works.parquet'
 
 # Path to save the new Parquet file
-new_final_file_path = '../final_files_/openalexID_newID_hasDOI.parquet'
+new_final_file_path = '../final_files/openalexID_newID_hasDOI.parquet'
 
 # Path to the log file
-log_file_path = '../final_files_/processing_log_ids_table.txt'
+log_file_path = '../final_files/processing_log_ids_table.txt'
 
 # Initialize log file
 with open(log_file_path, 'a') as log_file:
