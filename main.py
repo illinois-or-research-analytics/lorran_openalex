@@ -1,3 +1,7 @@
+# Converts the .gz files into .parquet, keeping the same folder structure. 
+# It extracts only the following information: OpenAlexID, DOI, Publication Year, Author Count. 
+# The result is a folder named "output"
+
 import gzip
 import json
 import pandas as pd
@@ -9,7 +13,7 @@ import os
 directory_path = '../openalex-snapshot/data/works/'
 
 # Output directory for Parquet files
-output_directory = '../output2/'
+output_directory = '../output/'
 os.makedirs(output_directory, exist_ok=True)
 
 # Log file path
