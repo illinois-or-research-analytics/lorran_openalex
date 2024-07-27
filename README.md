@@ -23,6 +23,11 @@ Specifically, by parsing the Works section of the [Open Alex](https://arxiv.org/
 
 A `.tar.xz` file, which contains two tables:
 - openalexID_newID_hasDOI.parquet
+The table contains three columns: `openalex_id`, `new_id`, and `hasDOI`. Each row represents a record with the following data types:
+
+- `openalex_id`: A string representing the unique identifier.
+- `new_id`: An integer representing the new identifier.
+- `hasDOI`: An integer (0 or 1) indicating whether the record has a DOI (0 for no, 1 for yes).
 
 | openalex_id | new_id | hasDOI |
 |-------------|--------|--------|
