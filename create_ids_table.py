@@ -7,7 +7,7 @@ import os
 final_file_path = '../final_files/works.parquet'
 
 # Path to save the new Parquet file
-new_final_file_path = '../final_files/openalexID_newID_hasDOI.parquet'
+new_final_file_path = '../final_files/openalexID_integer_id_hasDOI.parquet'
 
 # Path to the log file
 log_file_path = '../final_files/processing_log_ids_table.txt'
@@ -45,7 +45,7 @@ try:
     start_time = time.time()
 
     # Select the required columns
-    selected_df = works_df[['openalex_id', 'new_id', 'hasDOI']]
+    selected_df = works_df[['openalex_id', 'new_id', 'hasDOI']].rename(columns={'new_id': 'integer_id'})
     select_columns_time = time.time() - start_time
     print(f"Selected required columns in {select_columns_time:.2f} seconds.")
 
