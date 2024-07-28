@@ -21,9 +21,11 @@ Specifically, by parsing the Works section of the [Open Alex](https://arxiv.org/
 
 # Content in the Illinois Data Bank
 
-A `.tar.xz` file, which contains two tables:
-- openalexID_newID_hasDOI.parquet
-The table contains three columns: `openalex_id`, `integer_id`, and `hasDOI`. Each row represents a record with the following data types:
+Two `.xz` files, which contain one table each:
+
+**openalexID_newID_hasDOI.parquet.xz**
+
+This table contains three columns: `openalex_id`, `integer_id`, and `hasDOI`. Each row represents a record with the following data types:
 
 - `openalex_id`: A string representing the unique identifier.
 - `integer_id`: An integer representing the new identifier.
@@ -34,7 +36,7 @@ The table contains three columns: `openalex_id`, `integer_id`, and `hasDOI`. Eac
 | W100000002  | 0      | 1      |
 | ...  | ...      | ...      |
 
-- citation_table.tsv
+**citation_table.tsv.xz**
 
 This table do not have a header. 
 The columns represent ***citing*** and ***cited*** integer_id, respectively. 
