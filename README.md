@@ -56,6 +56,9 @@ Information we are currently using:
 **OpenAlex ID, DOI, publication year, references, and author count**.
 
 ## Code Files
+### Requirements: 
+
+  - `requirements.txt`
 ###  `dowloader_aws.py`
   
   This script downloads the "works" data files from an AWS S3 bucket containing the OpenAlex dataset. The files are downloaded to a local directory (openalex-snapshot) with the same structure as in the S3 bucket.
