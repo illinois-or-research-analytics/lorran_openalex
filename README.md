@@ -13,11 +13,14 @@ Specifically, by parsing the Works section of the [Open Alex](https://arxiv.org/
 
 • This large network (163 million nodes) will be used for benchmarking clustering algorithms.
 # Summary Features
-• Nodes (Documents): 256,997,006
+
+• Total Nodes (Documents): 256,997,006
+
+• Total Edges (citations): 2,148,871,058
 
 • Documents with DOIs : 163,495,446
 
-• Edges (citations): 2,148,871,058
+• Edges between documents with DOIs : 1,936,722,541
 
 # Content in the Illinois Data Bank
 
