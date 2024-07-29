@@ -27,4 +27,12 @@ print(f"The DataFrame has {df.shape[0]} rows.")
 print(df.dtypes)
 print(df.head())
 
+# Filter rows where both citing_hasDOI and cited_hasDOI are 1
+doi_rows = df[(df['citing_hasDOI'] == 1) & (df['cited_hasDOI'] == 1)]
+
+# Count the number of such rows
+count = len(doi_rows)
+
+print(f'Number of lines where both citing and cited have DOI: {count}')
+
 #---------------------------------------------------
