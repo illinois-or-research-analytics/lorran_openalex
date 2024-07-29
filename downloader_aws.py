@@ -12,8 +12,8 @@ bucket = 'openalex'
 prefix = 'data/works/'
 response = s3.list_objects_v2(Bucket=bucket, Prefix=prefix)
 
-# Ensure the local 'AWS' directory exists
-local_directory = 'AWS'
+# Ensure the local 'openalex-snapshot' directory exists
+local_directory = 'openalex-snapshot'
 if not os.path.exists(local_directory):
     os.makedirs(local_directory)
 
