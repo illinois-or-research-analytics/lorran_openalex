@@ -7,7 +7,7 @@ from tqdm import tqdm
 citation_directory = '../preprocessed_files/'
 
 # File containing the ID and has_DOI information
-id_info_file = '../final_files/openalexID_newID_hasDOI.parquet'
+id_info_file = '../final_files/openalexID_integer_id_hasDOI.parquet'
 
 # Output directory for the citation table Parquet file
 output_directory = '../citations/' 
@@ -31,7 +31,7 @@ id_info_df = pd.read_parquet(id_info_file, engine='pyarrow')
 print("Finished reading ID and hasDOI information.")
 
 # Rename columns in id_info_df for merging
-id_info_df = id_info_df.rename(columns={'openalex_id': 'id', 'new_id': 'new_id', 'hasDOI': 'hasDOI'})
+id_info_df = id_info_df.rename(columns={'openalex_id': 'id', 'integer_id': 'new_id', 'hasDOI': 'hasDOI'})
 
 # Process each citation Parquet file
 print("Processing citation files...")
